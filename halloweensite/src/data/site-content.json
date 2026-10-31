@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "title": "HalloweenDay",
+    "description": "Halloween in città"
+  },
+  "labels": {
+    "home": "HalloweenDay home",
+    "recipesTitle": "Ricette interessanti",
+    "filmsTitle": "Film da vedere",
+    "placesTitle": "Luoghi infestati da te",
+    "countdown": "Conto alla rovescia Halloween",
+    "citySelector": "Seleziona città",
+    "explore": "Esplora",
+    "backToPlaces": "Torna ai luoghi",
+    "description": "Descrizione",
+    "invaders": "Invasori",
+    "primaryNavigation": "Navigazione principale"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "Explore",
+      "href": "#explore"
+    },
+    {
+      "label": "Recipes",
+      "href": "#recipes"
+    },
+    {
+      "label": "Entertainment",
+      "href": "#entertainment"
+    }
+  ],
+  "countdown": "00:00:00",
+  "recipes": [
+    {
+      "id": "mummie-wurstel",
+      "name": "Mummie wurstel"
+    },
+    {
+      "id": "pizza-scary",
+      "name": "Pizza scary"
+    }
+  ],
+  "films": [
+    {
+      "id": "nightmare-before-christmas",
+      "title": "Nightmare before Christmas",
+      "description": "Jack Skeleton scopre il Natale e decide di portarlo nella città di Halloween. Un capolavoro dark e musicale.",
+      "posterAlt": "Locandina di Nightmare before Christmas",
+      "posterPath": "https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "coraline",
+      "title": "Coraline e la porta magica",
+      "description": "Una bambina scopre un mondo parallelo apparentemente perfetto, ma nasconde qualcosa di terribile.",
+      "posterAlt": "Locandina di Coraline e la porta magica",
+      "posterPath": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwcF7NIVkG0CTipMtP1TJXZBQGKuR3SbVayidFW5IQiqmLAYBbTODSrxcMDaYl8gA9cnEoRVGU6vnyuOeiSQyakd5N9IhTFgWWROvxMLuEtm6o_9feBGLAGA_Ax68JEf0tlYULL3z4qg90/s1600/04046244.jpg"
+    },
+    {
+      "id": "ghostbusters",
+      "title": "Ghostbusters",
+      "description": "Un gruppo di acchiappafantasmi deve salvare New York da un’invasione soprannaturale.",
+      "posterAlt": "Locandina di Ghostbusters",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/2/2f/Ghostbusters_%281984%29_theatrical_poster.png"
+    }
+  ],
+  "placeDetailDefaults": {
+    "descriptionTemplate": "{place} è uno dei luoghi più suggestivi di {city}. Di giorno sembra un luogo tranquillo, ma al calare della notte le ombre si animano e iniziano strane apparizioni.",
+    "invaders": [
+      {
+        "name": "Gli spettri amministratori",
+        "description": "Creature misteriose che infestano il luogo. Quando cala la notte, si aggirano tra gli ambienti e cercano di trasformarlo nel loro quartier generale."
+      },
+      {
+        "name": "Le notturne giganti",
+        "description": "Seguono le tracce degli spettri e insieme vogliono conquistare {city}, trascinandola nel regno delle tenebre."
+      }
+    ],
+    "strategyTitle": "Come sconfiggerli",
+    "strategySteps": [
+      "Trova la chiave magica nascosta vicino all’ingresso.",
+      "Recupera il timbro d’oro degli spettri.",
+      "Usa il timbro per annullare l’incantesimo notturno.",
+      "Accendi le luci del luogo per scacciarli definitivamente."
+    ]
+  },
+  "photoPlaceholder": "Aggiungi il percorso della foto nel campo imagePath di questo luogo.",
+  "cities": [
+    {
+      "id": "cortemilia",
+      "name": "Cortemilia",
+      "places": [
+        {
+          "id": "comune",
+          "name": "Comune di Cortemilia",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Il Comune di Cortemilia è il cuore della vita cittadina: tra documenti, riunioni e decisioni importanti, custodisce le storie di tutta la comunità. Ma dopo il tramonto gli uffici si trasformano in un labirinto stregato e i registri sembrano riscriversi da soli.",
+            "invaders": [
+              {
+                "name": "Gli spettri amministratori",
+                "description": "Hanno preso possesso degli uffici comunali e vogliono sottrarre i documenti più preziosi. Di notte confondono gli archivi, spostano le pratiche e cercano di trasformare il municipio nel loro quartier generale."
+              },
+              {
+                "name": "Le notturne giganti",
+                "description": "Si aggirano tra le stanze e aiutano gli spettri a portare avanti il loro piano. Insieme vogliono avvolgere il Comune in un incantesimo e consegnare Cortemilia al regno delle tenebre."
+              }
+            ],
+            "strategyTitle": "Come salvare il Comune",
+            "strategySteps": [
+              "Trova la chiave dell’archivio prima che gli spettri la nascondano.",
+              "Rimetti al loro posto i documenti comunali incantati.",
+              "Recupera il timbro d’oro e annulla l’incantesimo sui registri.",
+              "Accendi tutte le luci degli uffici per liberare il municipio."
+            ]
+          }
+        },
+        {
+          "id": "pieve",
+          "name": "Chiesa della Pieve",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Chiesa della Pieve è uno dei luoghi più suggestivi di Cortemilia. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "convento-san-francesco",
+          "name": "Convento San Francesco",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Convento San Francesco è uno dei luoghi più suggestivi di Cortemilia. Dietro le sue mura si nasconde un silenzio insolito. Al calare della notte, passi invisibili attraversano i corridoi e le vecchie finestre si illuminano."
+          }
+        },
+        {
+          "id": "cimitero",
+          "name": "Cimitero",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cimitero è uno dei luoghi più suggestivi di Cortemilia. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+          }
+        },
+        {
+          "id": "teatro-comunale",
+          "name": "Teatro comunale",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Teatro comunale è uno dei luoghi più suggestivi di Cortemilia. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+          }
+        },
+        {
+          "id": "biblioteca-civica",
+          "name": "Biblioteca civica",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Biblioteca civica è uno dei luoghi più suggestivi di Cortemilia. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feisoglio",
+      "name": "Feisoglio",
+      "places": [
+        {
+          "id": "centro-storico",
+          "name": "Centro storico",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Centro storico è uno dei luoghi più suggestivi di Feisoglio. Tra vicoli e antiche facciate, ogni angolo nasconde una storia. Dopo il tramonto, le strade si riempiono di ombre e rumori misteriosi."
+          }
+        },
+        {
+          "id": "chiesa-parrocchiale",
+          "name": "Chiesa parrocchiale",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Chiesa parrocchiale è uno dei luoghi più suggestivi di Feisoglio. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "belvedere",
+          "name": "Belvedere",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Belvedere è uno dei luoghi più suggestivi di Feisoglio. Al tramonto il panorama si tinge di un arancione inquietante. Quando scende il buio, figure silenziose compaiono ai margini."
+          }
+        },
+        {
+          "id": "cimitero",
+          "name": "Cimitero",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cimitero è uno dei luoghi più suggestivi di Feisoglio. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+          }
+        },
+        {
+          "id": "municipio",
+          "name": "Municipio",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Municipio è uno dei luoghi più suggestivi di Feisoglio. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+          }
+        },
+        {
+          "id": "sentiero-bosco",
+          "name": "Sentiero nel bosco",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Sentiero nel bosco è uno dei luoghi più suggestivi di Feisoglio. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alba",
+      "name": "Alba",
+      "places": [
+        {
+          "id": "duomo-san-lorenzo",
+          "name": "Duomo di San Lorenzo",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Duomo di San Lorenzo è uno dei luoghi più suggestivi di Alba. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "chiesa-san-domenico",
+          "name": "Chiesa di San Domenico",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Chiesa di San Domenico è uno dei luoghi più suggestivi di Alba. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "teatro-sociale",
+          "name": "Teatro Sociale",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Teatro Sociale è uno dei luoghi più suggestivi di Alba. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+          }
+        },
+        {
+          "id": "cimitero-monumentale",
+          "name": "Cimitero monumentale",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Alba. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+          }
+        },
+        {
+          "id": "piazza-risorgimento",
+          "name": "Piazza Risorgimento",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Piazza Risorgimento è uno dei luoghi più suggestivi di Alba. Al tramonto il panorama si tinge di un arancione inquietante. Quando scende il buio, figure silenziose compaiono ai margini."
+          }
+        },
+        {
+          "id": "biblioteca-civica",
+          "name": "Biblioteca civica",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Biblioteca civica è uno dei luoghi più suggestivi di Alba. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta."
+          }
+        }
+      ]
+    },
+    {
+      "id": "catania",
+      "name": "Catania",
+      "places": [
+        {
+          "id": "castello-ursino",
+          "name": "Castello Ursino",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Castello Ursino è uno dei luoghi più suggestivi di Catania. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+          }
+        },
+        {
+          "id": "duomo-sant-agata",
+          "name": "Duomo di Sant’Agata",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Duomo di Sant’Agata è uno dei luoghi più suggestivi di Catania. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "monastero-benedettini",
+          "name": "Monastero dei Benedettini",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Monastero dei Benedettini è uno dei luoghi più suggestivi di Catania. Dietro le sue mura si nasconde un silenzio insolito. Al calare della notte, passi invisibili attraversano i corridoi e le vecchie finestre si illuminano."
+          }
+        },
+        {
+          "id": "cimitero-monumentale",
+          "name": "Cimitero monumentale",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Catania. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+          }
+        },
+        {
+          "id": "teatro-massimo-bellini",
+          "name": "Teatro Massimo Bellini",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Teatro Massimo Bellini è uno dei luoghi più suggestivi di Catania. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+          }
+        },
+        {
+          "id": "villa-bellini",
+          "name": "Villa Bellini",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Villa Bellini è uno dei luoghi più suggestivi di Catania. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada."
+          }
+        }
+      ]
+    },
+    {
+      "id": "torino",
+      "name": "Torino",
+      "places": [
+        {
+          "id": "palazzo-reale",
+          "name": "Palazzo Reale",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Palazzo Reale è uno dei luoghi più suggestivi di Torino. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+          }
+        },
+        {
+          "id": "duomo-torino",
+          "name": "Duomo di Torino",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Duomo di Torino è uno dei luoghi più suggestivi di Torino. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "mole-antonelliana",
+          "name": "Mole Antonelliana",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Mole Antonelliana è uno dei luoghi più suggestivi di Torino. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+          }
+        },
+        {
+          "id": "cimitero-monumentale",
+          "name": "Cimitero monumentale",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Torino. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+          }
+        },
+        {
+          "id": "teatro-regio",
+          "name": "Teatro Regio",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Teatro Regio è uno dei luoghi più suggestivi di Torino. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+          }
+        },
+        {
+          "id": "parco-valentino",
+          "name": "Parco del Valentino",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Parco del Valentino è uno dei luoghi più suggestivi di Torino. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada."
+          }
+        }
+      ]
+    },
+    {
+      "id": "asti",
+      "name": "Asti",
+      "places": [
+        {
+          "id": "cattedrale-santa-maria",
+          "name": "Cattedrale di Santa Maria",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cattedrale di Santa Maria è uno dei luoghi più suggestivi di Asti. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+          }
+        },
+        {
+          "id": "torre-troyana",
+          "name": "Torre Troyana",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Torre Troyana è uno dei luoghi più suggestivi di Asti. Di giorno sembra un luogo tranquillo, ma al calare della notte le ombre si animano e iniziano strane apparizioni."
+          }
+        },
+        {
+          "id": "palazzo-mazzetti",
+          "name": "Palazzo Mazzetti",
+          "status": "medium",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Palazzo Mazzetti è uno dei luoghi più suggestivi di Asti. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+          }
+        },
+        {
+          "id": "cimitero-monumentale",
+          "name": "Cimitero monumentale",
+          "status": "invasion",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Asti. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+          }
+        },
+        {
+          "id": "teatro-alfieri",
+          "name": "Teatro Alfieri",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Teatro Alfieri è uno dei luoghi più suggestivi di Asti. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+          }
+        },
+        {
+          "id": "biblioteca-astense",
+          "name": "Biblioteca Astense",
+          "status": "none",
+          "imagePath": null,
+          "imageAlt": null,
+          "detail": {
+            "description": "Biblioteca Astense è uno dei luoghi più suggestivi di Asti. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta."
+          }
+        }
+      ]
+    }
+  ],
+  "footer": "© 2026 IC ITALIA MARTA DESIRÉ CARDULLO · TUTTI I DIRITTI RISERVATI",
+  "legend": [
+    {
+      "label": "Invasione",
+      "status": "invasion"
+    },
+    {
+      "label": "Nullo",
+      "status": "none"
+    },
+    {
+      "label": "Medio",
+      "status": "medium"
+    }
+  ]
+}
