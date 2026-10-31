@@ -22,7 +22,6 @@ export default function HalloweenDashboard() {
           place={place}
           detail={resolvePlaceDetail(selectedCity, place, siteContent.placeDetailDefaults)}
           labels={siteContent.labels}
-          photoPlaceholder={siteContent.photoPlaceholder}
           onBack={() => setSelectedPlace(null)}
         />
       ) : (

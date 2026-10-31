@@ -179,8 +179,8 @@ button, select { font: inherit; }
 .places-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 14px; }
 .place-card {
   position: relative;
-  min-height: clamp(112px, 12.4vw, 156px);
-  padding: 16px 15px;
+  min-height: clamp(132px, 12.4vw, 156px);
+  padding: 17px 16px 56px;
   display: flex;
   align-items: flex-start;
   border: 1px solid var(--panel-border);
@@ -191,7 +191,7 @@ button, select { font: inherit; }
 }
 .place-card:hover { transform: translateY(-3px); border-color: var(--orange); box-shadow: 0 12px 26px rgb(0 0 0 / 26%); }
 .place-card p {
-  max-width: min(72%, 190px);
+  max-width: min(88%, 220px);
   margin: 0;
   color: var(--white);
   font: 400 clamp(17px, 1.15vw, 21px)/1.12 var(--display-font);
@@ -254,11 +254,11 @@ button, select { font: inherit; }
   transition: color .2s ease, background .2s ease;
 }
 .detail-back:hover { color: var(--orange); background: rgb(255 255 255 / 10%); }
-.detail-content { min-height: 0; flex: 1; display: grid; grid-template-columns: minmax(280px, .88fr) minmax(0, 1.12fr); align-items: center; gap: clamp(24px, 4vw, 60px); }
+.detail-content { min-height: 0; flex: 1; display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; }
+.detail-content.has-photo { grid-template-columns: minmax(280px, .88fr) minmax(0, 1.12fr); gap: clamp(24px, 4vw, 60px); }
 .detail-figure { width: 100%; margin: 0; align-self: center; }
 .detail-photo { display: block; width: 100%; height: min(54vh, 600px); min-height: 320px; object-fit: cover; object-position: center; border: 1px solid var(--panel-border); border-radius: 9px; background: #202a3d; }
-.photo-placeholder { display: grid; place-items: center; padding: 24px; color: rgb(255 255 255 / 76%); background: radial-gradient(ellipse at 50% 45%, rgb(243 107 33 / 13%), transparent 66%), #202a3d; text-align: center; font: 600 14px/1.6 var(--body-font); }
-.detail-copy { align-self: center; display: flex; flex-direction: column; gap: clamp(18px, 2.4vh, 30px); color: #f2eee8; font: 500 clamp(14px, .95vw, 16px)/1.55 var(--body-font); }
+.detail-copy { width: 100%; max-width: 1040px; align-self: center; display: flex; flex-direction: column; gap: clamp(18px, 2.4vh, 30px); color: #f2eee8; font: 500 clamp(14px, .95vw, 16px)/1.55 var(--body-font); }
 .detail-copy h2 { margin: 0 0 9px; color: var(--cream); font: 400 clamp(20px, 1.65vw, 27px)/1.08 var(--display-font); letter-spacing: .035em; text-transform: uppercase; }
 .detail-copy p { margin: 0 0 8px; font: inherit; }
 .detail-copy strong { color: #ff9a62; }
@@ -292,8 +292,8 @@ button, select { font: inherit; }
   .dashboard { padding-inline: clamp(22px, 4vw, 48px); gap: 26px; }
   .places-heading { align-items: flex-start; flex-direction: column; }
   .places-heading .section-title { max-width: 100%; }
-  .place-card { min-height: 120px; }
-  .detail-content { grid-template-columns: minmax(240px, .85fr) minmax(0, 1.15fr); gap: 26px; }
+  .place-card { min-height: 128px; }
+  .detail-content.has-photo { grid-template-columns: minmax(240px, .85fr) minmax(0, 1.15fr); gap: 26px; }
 }
 
 @media (max-width: 760px) {
@@ -318,7 +318,7 @@ button, select { font: inherit; }
   .places-heading { flex-direction: row; align-items: center; flex-wrap: wrap; }
   .places-heading .section-title { font-size: 23px; }
   .places-grid { gap: 10px; }
-  .place-card { min-height: 120px; padding: 13px 11px; }
+  .place-card { min-height: 124px; padding: 13px 11px 51px; }
   .place-card p { font-size: clamp(15px, 4vw, 18px); }
   .place-card .dot { left: 10px; top: 15px; }
   .place-card:has(.dot) p { padding-left: 17px; }
@@ -348,7 +348,7 @@ button, select { font: inherit; }
   .city-selector { padding: 7px 8px; }
   .city-selector select { max-width: 115px; }
   .places-grid { gap: 8px; }
-  .place-card { min-height: 108px; padding: 11px 9px; }
+  .place-card { min-height: 116px; padding: 11px 9px 48px; }
   .place-card p { font-size: 14px; }
   .place-card .dot { left: 8px; top: 12px; width: 10px; height: 10px; }
   .place-card:has(.dot) p { padding-left: 14px; }

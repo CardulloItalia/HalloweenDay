@@ -8,7 +8,6 @@ interface PlaceDetailProps {
     description: string;
     invaders: string;
   };
-  photoPlaceholder: string;
   onBack: () => void;
 }
 
@@ -16,7 +15,6 @@ export default function PlaceDetail({
   place,
   detail,
   labels,
-  photoPlaceholder,
   onBack,
 }: PlaceDetailProps) {
   return (
@@ -28,16 +26,12 @@ export default function PlaceDetail({
         <h1 id="place-detail-title">{place.name}</h1>
       </div>
 
-      <div className="detail-content">
-        <figure className="detail-figure">
-          {place.imagePath ? (
+      <div className={`detail-content${place.imagePath ? " has-photo" : ""}`}>
+        {place.imagePath && (
+          <figure className="detail-figure">
             <img className="detail-photo" src={place.imagePath} alt={place.imageAlt ?? place.name} />
-          ) : (
-            <div className="detail-photo photo-placeholder" role="img" aria-label={photoPlaceholder}>
-              <span>{photoPlaceholder}</span>
-            </div>
-          )}
-        </figure>
+          </figure>
+        )}
 
         <div className="detail-copy">
           <section>

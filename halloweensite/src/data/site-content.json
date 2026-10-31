@@ -88,7 +88,6 @@
       "Accendi le luci del luogo per scacciarli definitivamente."
     ]
   },
-  "photoPlaceholder": "Aggiungi il percorso della foto nel campo imagePath di questo luogo.",
   "cities": [
     {
       "id": "cortemilia",
@@ -128,7 +127,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Chiesa della Pieve è uno dei luoghi più suggestivi di Cortemilia. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Chiesa della Pieve è uno dei luoghi più suggestivi di Cortemilia. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Chiesa della Pieve (Cortemilia)",
+                "description": "Ha rubato la melodia delle campane di Chiesa della Pieve a Cortemilia; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Chiesa della Pieve (Cortemilia)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Cortemilia nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Chiesa della Pieve a Cortemilia",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Chiesa della Pieve.",
+              "Recupera rosario d’argento prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Chiesa della Pieve a Cortemilia."
+            ]
           }
         },
         {
@@ -138,7 +154,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Convento San Francesco è uno dei luoghi più suggestivi di Cortemilia. Dietro le sue mura si nasconde un silenzio insolito. Al calare della notte, passi invisibili attraversano i corridoi e le vecchie finestre si illuminano."
+            "description": "Convento San Francesco è uno dei luoghi più suggestivi di Cortemilia. Dietro le sue mura si nasconde un silenzio insolito. Al calare della notte, passi invisibili attraversano i corridoi e le vecchie finestre si illuminano.",
+            "invaders": [
+              {
+                "name": "Il frate senza volto di Convento San Francesco (Cortemilia)",
+                "description": "Percorre i corridoi di Convento San Francesco a Cortemilia e cambia ogni notte i simboli sulle pareti."
+              },
+              {
+                "name": "La tessitrice del chiostro di Convento San Francesco (Cortemilia)",
+                "description": "Custodisce una porta segreta e attira gli intrusi con una voce che arriva dal chiostro."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Convento San Francesco a Cortemilia",
+            "strategySteps": [
+              "Ritrova i simboli scomparsi lungo il chiostro di Convento San Francesco.",
+              "Prendi campanella di vetro dalla stanza che si apre solo al buio.",
+              "Disponi i simboli nell’ordine giusto per chiudere il passaggio spettrale.",
+              "Suona la campana e libera Convento San Francesco a Cortemilia."
+            ]
           }
         },
         {
@@ -148,7 +181,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cimitero è uno dei luoghi più suggestivi di Cortemilia. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+            "description": "Cimitero è uno dei luoghi più suggestivi di Cortemilia. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata.",
+            "invaders": [
+              {
+                "name": "Il custode delle lapidi di Cimitero (Cortemilia)",
+                "description": "Si risveglia tra le tombe di Cimitero a Cortemilia e sposta i sentieri con luci ingannevoli."
+              },
+              {
+                "name": "La guida della nebbia di Cimitero (Cortemilia)",
+                "description": "Sorveglia il cancello di Cimitero e protegge un segreto sepolto sotto Cortemilia."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cimitero a Cortemilia",
+            "strategySteps": [
+              "Segui le impronte luminose fino al settore più antico di Cimitero.",
+              "Ritrova medaglione antico prima che scompaia nella nebbia.",
+              "Spegni i fuochi fatui con il talismano recuperato.",
+              "Riapri il cancello e restituisci la quiete a Cimitero."
+            ]
           }
         },
         {
@@ -158,7 +208,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Teatro comunale è uno dei luoghi più suggestivi di Cortemilia. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+            "description": "Teatro comunale è uno dei luoghi più suggestivi di Cortemilia. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico.",
+            "invaders": [
+              {
+                "name": "Il suggeritore fantasma di Teatro comunale (Cortemilia)",
+                "description": "Si impossessa del palcoscenico di Teatro comunale a Cortemilia e recita una scena che intrappola chi la guarda."
+              },
+              {
+                "name": "La prima attrice spettrale di Teatro comunale (Cortemilia)",
+                "description": "Ruba le voci agli attori e le nasconde dietro il sipario, lasciando Teatro comunale senza applausi."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Teatro comunale a Cortemilia",
+            "strategySteps": [
+              "Scopri la scena cancellata dal copione di Teatro comunale.",
+              "Trova copione strappato dietro le quinte prima che cali il sipario.",
+              "Pronuncia la battuta finale per spezzare l’incantesimo.",
+              "Accendi le luci di sala e libera il teatro di Cortemilia."
+            ]
           }
         },
         {
@@ -168,7 +235,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Biblioteca civica è uno dei luoghi più suggestivi di Cortemilia. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta."
+            "description": "Biblioteca civica è uno dei luoghi più suggestivi di Cortemilia. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta.",
+            "invaders": [
+              {
+                "name": "Il bibliotecario delle ombre di Biblioteca civica (Cortemilia)",
+                "description": "Rimescola gli scaffali di Biblioteca civica a Cortemilia e cancella dai libri il ricordo dei loro lettori."
+              },
+              {
+                "name": "La lettrice senza ricordi di Biblioteca civica (Cortemilia)",
+                "description": "Si nasconde in un volume senza titolo e cambia le parole ogni volta che viene aperto."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Biblioteca civica a Cortemilia",
+            "strategySteps": [
+              "Trova il volume senza titolo tra gli scaffali di Biblioteca civica.",
+              "Recupera chiave d’ottone dalla pagina che si riscrive da sola.",
+              "Rimetti il volume al suo posto per fermare il sortilegio.",
+              "Riapri le finestre e restituisci la quiete a Biblioteca civica."
+            ]
           }
         }
       ]
@@ -184,7 +268,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Centro storico è uno dei luoghi più suggestivi di Feisoglio. Tra vicoli e antiche facciate, ogni angolo nasconde una storia. Dopo il tramonto, le strade si riempiono di ombre e rumori misteriosi."
+            "description": "Centro storico è uno dei luoghi più suggestivi di Feisoglio. Tra vicoli e antiche facciate, ogni angolo nasconde una storia. Dopo il tramonto, le strade si riempiono di ombre e rumori misteriosi.",
+            "invaders": [
+              {
+                "name": "Il viandante senza ombra di Centro storico (Feisoglio)",
+                "description": "Si aggira tra gli angoli nascosti di Centro storico a Feisoglio, lasciando indizi che cambiano a ogni visita."
+              },
+              {
+                "name": "La custode dei vicoli di Centro storico (Feisoglio)",
+                "description": "Sorveglia il passaggio più antico e confonde chi prova a scoprire la storia del luogo."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Centro storico a Feisoglio",
+            "strategySteps": [
+              "Raccogli gli indizi nascosti tra gli angoli di Centro storico.",
+              "Recupera libro rosso prima che sparisca nel buio.",
+              "Risolvi il messaggio lasciato dagli abitanti di Feisoglio.",
+              "Segui la luce fino all’uscita e libera Centro storico."
+            ]
           }
         },
         {
@@ -194,7 +295,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Chiesa parrocchiale è uno dei luoghi più suggestivi di Feisoglio. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Chiesa parrocchiale è uno dei luoghi più suggestivi di Feisoglio. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Chiesa parrocchiale (Feisoglio)",
+                "description": "Ha rubato la melodia delle campane di Chiesa parrocchiale a Feisoglio; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Chiesa parrocchiale (Feisoglio)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Feisoglio nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Chiesa parrocchiale a Feisoglio",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Chiesa parrocchiale.",
+              "Recupera nastro lunare prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Chiesa parrocchiale a Feisoglio."
+            ]
           }
         },
         {
@@ -204,7 +322,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Belvedere è uno dei luoghi più suggestivi di Feisoglio. Al tramonto il panorama si tinge di un arancione inquietante. Quando scende il buio, figure silenziose compaiono ai margini."
+            "description": "Belvedere è uno dei luoghi più suggestivi di Feisoglio. Al tramonto il panorama si tinge di un arancione inquietante. Quando scende il buio, figure silenziose compaiono ai margini.",
+            "invaders": [
+              {
+                "name": "Il cartografo del crepuscolo di Belvedere (Feisoglio)",
+                "description": "Compare al centro di Belvedere a Feisoglio e proietta nel cielo una luna che non esiste."
+              },
+              {
+                "name": "La voce tra i passanti di Belvedere (Feisoglio)",
+                "description": "Si confonde tra i passanti e sussurra indicazioni sbagliate a chi attraversa la piazza."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Belvedere a Feisoglio",
+            "strategySteps": [
+              "Individua la fonte della luce spettrale di Belvedere.",
+              "Recupera mappa dei vicoli prima che la luna illusoria svanisca.",
+              "Rivolgi il fascio di luce verso il centro della piazza.",
+              "Dissolvi le ombre e riapri Belvedere agli abitanti di Feisoglio."
+            ]
           }
         },
         {
@@ -214,7 +349,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cimitero è uno dei luoghi più suggestivi di Feisoglio. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+            "description": "Cimitero è uno dei luoghi più suggestivi di Feisoglio. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata.",
+            "invaders": [
+              {
+                "name": "Il custode delle lapidi di Cimitero (Feisoglio)",
+                "description": "Si risveglia tra le tombe di Cimitero a Feisoglio e sposta i sentieri con luci ingannevoli."
+              },
+              {
+                "name": "La guida della nebbia di Cimitero (Feisoglio)",
+                "description": "Sorveglia il cancello di Cimitero e protegge un segreto sepolto sotto Feisoglio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cimitero a Feisoglio",
+            "strategySteps": [
+              "Segui le impronte luminose fino al settore più antico di Cimitero.",
+              "Ritrova rosa di ferro prima che scompaia nella nebbia.",
+              "Spegni i fuochi fatui con il talismano recuperato.",
+              "Riapri il cancello e restituisci la quiete a Cimitero."
+            ]
           }
         },
         {
@@ -224,7 +376,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Municipio è uno dei luoghi più suggestivi di Feisoglio. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+            "description": "Municipio è uno dei luoghi più suggestivi di Feisoglio. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso.",
+            "invaders": [
+              {
+                "name": "Il castellano invisibile di Municipio (Feisoglio)",
+                "description": "Ha preso possesso delle sale di Municipio a Feisoglio e sposta porte e corridoi per confondere chi entra."
+              },
+              {
+                "name": "La dama delle stanze chiuse di Municipio (Feisoglio)",
+                "description": "Cerca il sigillo più antico e vuole trasformare Municipio nel proprio quartier generale."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Municipio a Feisoglio",
+            "strategySteps": [
+              "Rimetti in ordine gli indizi lasciati nelle sale di Municipio.",
+              "Recupera sigillo comunale prima che venga nascosto nell’archivio.",
+              "Usa il sigillo per fermare le porte che cambiano posizione.",
+              "Apri il portone e libera Municipio a Feisoglio."
+            ]
           }
         },
         {
@@ -234,7 +403,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Sentiero nel bosco è uno dei luoghi più suggestivi di Feisoglio. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada."
+            "description": "Sentiero nel bosco è uno dei luoghi più suggestivi di Feisoglio. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada.",
+            "invaders": [
+              {
+                "name": "Il guardiano dei sentieri di Sentiero nel bosco (Feisoglio)",
+                "description": "Confonde i sentieri di Sentiero nel bosco a Feisoglio e sposta i segnali quando cala la nebbia."
+              },
+              {
+                "name": "La lucciola stregata di Sentiero nel bosco (Feisoglio)",
+                "description": "Si nasconde tra gli alberi e attira i visitatori con luci che svaniscono appena ci si avvicina."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Sentiero nel bosco a Feisoglio",
+            "strategySteps": [
+              "Segui i segni lungo Sentiero nel bosco senza abbandonare il percorso.",
+              "Trova candela blu tra le radici dell’albero più antico.",
+              "Disponi le pietre luminose per indicare l’uscita dal labirinto.",
+              "Rischiara il sentiero e libera Sentiero nel bosco a Feisoglio."
+            ]
           }
         }
       ]
@@ -250,7 +436,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Duomo di San Lorenzo è uno dei luoghi più suggestivi di Alba. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Duomo di San Lorenzo è uno dei luoghi più suggestivi di Alba. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Duomo di San Lorenzo (Alba)",
+                "description": "Ha rubato la melodia delle campane di Duomo di San Lorenzo a Alba; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Duomo di San Lorenzo (Alba)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Alba nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Duomo di San Lorenzo a Alba",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Duomo di San Lorenzo.",
+              "Recupera frammento di specchio prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Duomo di San Lorenzo a Alba."
+            ]
           }
         },
         {
@@ -260,7 +463,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Chiesa di San Domenico è uno dei luoghi più suggestivi di Alba. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Chiesa di San Domenico è uno dei luoghi più suggestivi di Alba. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Chiesa di San Domenico (Alba)",
+                "description": "Ha rubato la melodia delle campane di Chiesa di San Domenico a Alba; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Chiesa di San Domenico (Alba)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Alba nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Chiesa di San Domenico a Alba",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Chiesa di San Domenico.",
+              "Recupera piuma del corvo prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Chiesa di San Domenico a Alba."
+            ]
           }
         },
         {
@@ -270,7 +490,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Teatro Sociale è uno dei luoghi più suggestivi di Alba. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+            "description": "Teatro Sociale è uno dei luoghi più suggestivi di Alba. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico.",
+            "invaders": [
+              {
+                "name": "Il suggeritore fantasma di Teatro Sociale (Alba)",
+                "description": "Si impossessa del palcoscenico di Teatro Sociale a Alba e recita una scena che intrappola chi la guarda."
+              },
+              {
+                "name": "La prima attrice spettrale di Teatro Sociale (Alba)",
+                "description": "Ruba le voci agli attori e le nasconde dietro il sipario, lasciando Teatro Sociale senza applausi."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Teatro Sociale a Alba",
+            "strategySteps": [
+              "Scopri la scena cancellata dal copione di Teatro Sociale.",
+              "Trova diario smarrito dietro le quinte prima che cali il sipario.",
+              "Pronuncia la battuta finale per spezzare l’incantesimo.",
+              "Accendi le luci di sala e libera il teatro di Alba."
+            ]
           }
         },
         {
@@ -280,7 +517,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Alba. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Alba. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata.",
+            "invaders": [
+              {
+                "name": "Il custode delle lapidi di Cimitero monumentale (Alba)",
+                "description": "Si risveglia tra le tombe di Cimitero monumentale a Alba e sposta i sentieri con luci ingannevoli."
+              },
+              {
+                "name": "La guida della nebbia di Cimitero monumentale (Alba)",
+                "description": "Sorveglia il cancello di Cimitero monumentale e protegge un segreto sepolto sotto Alba."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cimitero monumentale a Alba",
+            "strategySteps": [
+              "Segui le impronte luminose fino al settore più antico di Cimitero monumentale.",
+              "Ritrova moneta incantata prima che scompaia nella nebbia.",
+              "Spegni i fuochi fatui con il talismano recuperato.",
+              "Riapri il cancello e restituisci la quiete a Cimitero monumentale."
+            ]
           }
         },
         {
@@ -290,7 +544,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Piazza Risorgimento è uno dei luoghi più suggestivi di Alba. Al tramonto il panorama si tinge di un arancione inquietante. Quando scende il buio, figure silenziose compaiono ai margini."
+            "description": "Piazza Risorgimento è uno dei luoghi più suggestivi di Alba. Al tramonto il panorama si tinge di un arancione inquietante. Quando scende il buio, figure silenziose compaiono ai margini.",
+            "invaders": [
+              {
+                "name": "Il cartografo del crepuscolo di Piazza Risorgimento (Alba)",
+                "description": "Compare al centro di Piazza Risorgimento a Alba e proietta nel cielo una luna che non esiste."
+              },
+              {
+                "name": "La voce tra i passanti di Piazza Risorgimento (Alba)",
+                "description": "Si confonde tra i passanti e sussurra indicazioni sbagliate a chi attraversa la piazza."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Piazza Risorgimento a Alba",
+            "strategySteps": [
+              "Individua la fonte della luce spettrale di Piazza Risorgimento.",
+              "Recupera calice di pietra prima che la luna illusoria svanisca.",
+              "Rivolgi il fascio di luce verso il centro della piazza.",
+              "Dissolvi le ombre e riapri Piazza Risorgimento agli abitanti di Alba."
+            ]
           }
         },
         {
@@ -300,7 +571,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Biblioteca civica è uno dei luoghi più suggestivi di Alba. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta."
+            "description": "Biblioteca civica è uno dei luoghi più suggestivi di Alba. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta.",
+            "invaders": [
+              {
+                "name": "Il bibliotecario delle ombre di Biblioteca civica (Alba)",
+                "description": "Rimescola gli scaffali di Biblioteca civica a Alba e cancella dai libri il ricordo dei loro lettori."
+              },
+              {
+                "name": "La lettrice senza ricordi di Biblioteca civica (Alba)",
+                "description": "Si nasconde in un volume senza titolo e cambia le parole ogni volta che viene aperto."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Biblioteca civica a Alba",
+            "strategySteps": [
+              "Trova il volume senza titolo tra gli scaffali di Biblioteca civica.",
+              "Recupera maschera del custode dalla pagina che si riscrive da sola.",
+              "Rimetti il volume al suo posto per fermare il sortilegio.",
+              "Riapri le finestre e restituisci la quiete a Biblioteca civica."
+            ]
           }
         }
       ]
@@ -316,7 +604,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Castello Ursino è uno dei luoghi più suggestivi di Catania. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+            "description": "Castello Ursino è uno dei luoghi più suggestivi di Catania. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso.",
+            "invaders": [
+              {
+                "name": "Il castellano invisibile di Castello Ursino (Catania)",
+                "description": "Ha preso possesso delle sale di Castello Ursino a Catania e sposta porte e corridoi per confondere chi entra."
+              },
+              {
+                "name": "La dama delle stanze chiuse di Castello Ursino (Catania)",
+                "description": "Cerca il sigillo più antico e vuole trasformare Castello Ursino nel proprio quartier generale."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Castello Ursino a Catania",
+            "strategySteps": [
+              "Rimetti in ordine gli indizi lasciati nelle sale di Castello Ursino.",
+              "Recupera campanello d’argento prima che venga nascosto nell’archivio.",
+              "Usa il sigillo per fermare le porte che cambiano posizione.",
+              "Apri il portone e libera Castello Ursino a Catania."
+            ]
           }
         },
         {
@@ -326,7 +631,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Duomo di Sant’Agata è uno dei luoghi più suggestivi di Catania. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Duomo di Sant’Agata è uno dei luoghi più suggestivi di Catania. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Duomo di Sant’Agata (Catania)",
+                "description": "Ha rubato la melodia delle campane di Duomo di Sant’Agata a Catania; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Duomo di Sant’Agata (Catania)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Catania nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Duomo di Sant’Agata a Catania",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Duomo di Sant’Agata.",
+              "Recupera pergamena segreta prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Duomo di Sant’Agata a Catania."
+            ]
           }
         },
         {
@@ -336,7 +658,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Monastero dei Benedettini è uno dei luoghi più suggestivi di Catania. Dietro le sue mura si nasconde un silenzio insolito. Al calare della notte, passi invisibili attraversano i corridoi e le vecchie finestre si illuminano."
+            "description": "Monastero dei Benedettini è uno dei luoghi più suggestivi di Catania. Dietro le sue mura si nasconde un silenzio insolito. Al calare della notte, passi invisibili attraversano i corridoi e le vecchie finestre si illuminano.",
+            "invaders": [
+              {
+                "name": "Il frate senza volto di Monastero dei Benedettini (Catania)",
+                "description": "Percorre i corridoi di Monastero dei Benedettini a Catania e cambia ogni notte i simboli sulle pareti."
+              },
+              {
+                "name": "La tessitrice del chiostro di Monastero dei Benedettini (Catania)",
+                "description": "Custodisce una porta segreta e attira gli intrusi con una voce che arriva dal chiostro."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Monastero dei Benedettini a Catania",
+            "strategySteps": [
+              "Ritrova i simboli scomparsi lungo il chiostro di Monastero dei Benedettini.",
+              "Prendi talismano della luna dalla stanza che si apre solo al buio.",
+              "Disponi i simboli nell’ordine giusto per chiudere il passaggio spettrale.",
+              "Suona la campana e libera Monastero dei Benedettini a Catania."
+            ]
           }
         },
         {
@@ -346,7 +685,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Catania. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Catania. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata.",
+            "invaders": [
+              {
+                "name": "Il custode delle lapidi di Cimitero monumentale (Catania)",
+                "description": "Si risveglia tra le tombe di Cimitero monumentale a Catania e sposta i sentieri con luci ingannevoli."
+              },
+              {
+                "name": "La guida della nebbia di Cimitero monumentale (Catania)",
+                "description": "Sorveglia il cancello di Cimitero monumentale e protegge un segreto sepolto sotto Catania."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cimitero monumentale a Catania",
+            "strategySteps": [
+              "Segui le impronte luminose fino al settore più antico di Cimitero monumentale.",
+              "Ritrova mazzo di chiavi prima che scompaia nella nebbia.",
+              "Spegni i fuochi fatui con il talismano recuperato.",
+              "Riapri il cancello e restituisci la quiete a Cimitero monumentale."
+            ]
           }
         },
         {
@@ -356,7 +712,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Teatro Massimo Bellini è uno dei luoghi più suggestivi di Catania. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+            "description": "Teatro Massimo Bellini è uno dei luoghi più suggestivi di Catania. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico.",
+            "invaders": [
+              {
+                "name": "Il suggeritore fantasma di Teatro Massimo Bellini (Catania)",
+                "description": "Si impossessa del palcoscenico di Teatro Massimo Bellini a Catania e recita una scena che intrappola chi la guarda."
+              },
+              {
+                "name": "La prima attrice spettrale di Teatro Massimo Bellini (Catania)",
+                "description": "Ruba le voci agli attori e le nasconde dietro il sipario, lasciando Teatro Massimo Bellini senza applausi."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Teatro Massimo Bellini a Catania",
+            "strategySteps": [
+              "Scopri la scena cancellata dal copione di Teatro Massimo Bellini.",
+              "Trova clessidra stregata dietro le quinte prima che cali il sipario.",
+              "Pronuncia la battuta finale per spezzare l’incantesimo.",
+              "Accendi le luci di sala e libera il teatro di Catania."
+            ]
           }
         },
         {
@@ -366,7 +739,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Villa Bellini è uno dei luoghi più suggestivi di Catania. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada."
+            "description": "Villa Bellini è uno dei luoghi più suggestivi di Catania. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada.",
+            "invaders": [
+              {
+                "name": "Il guardiano dei sentieri di Villa Bellini (Catania)",
+                "description": "Confonde i sentieri di Villa Bellini a Catania e sposta i segnali quando cala la nebbia."
+              },
+              {
+                "name": "La lucciola stregata di Villa Bellini (Catania)",
+                "description": "Si nasconde tra gli alberi e attira i visitatori con luci che svaniscono appena ci si avvicina."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Villa Bellini a Catania",
+            "strategySteps": [
+              "Segui i segni lungo Villa Bellini senza abbandonare il percorso.",
+              "Trova fiore notturno tra le radici dell’albero più antico.",
+              "Disponi le pietre luminose per indicare l’uscita dal labirinto.",
+              "Rischiara il sentiero e libera Villa Bellini a Catania."
+            ]
           }
         }
       ]
@@ -382,7 +772,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Palazzo Reale è uno dei luoghi più suggestivi di Torino. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+            "description": "Palazzo Reale è uno dei luoghi più suggestivi di Torino. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso.",
+            "invaders": [
+              {
+                "name": "Il castellano invisibile di Palazzo Reale (Torino)",
+                "description": "Ha preso possesso delle sale di Palazzo Reale a Torino e sposta porte e corridoi per confondere chi entra."
+              },
+              {
+                "name": "La dama delle stanze chiuse di Palazzo Reale (Torino)",
+                "description": "Cerca il sigillo più antico e vuole trasformare Palazzo Reale nel proprio quartier generale."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Palazzo Reale a Torino",
+            "strategySteps": [
+              "Rimetti in ordine gli indizi lasciati nelle sale di Palazzo Reale.",
+              "Recupera distintivo dimenticato prima che venga nascosto nell’archivio.",
+              "Usa il sigillo per fermare le porte che cambiano posizione.",
+              "Apri il portone e libera Palazzo Reale a Torino."
+            ]
           }
         },
         {
@@ -392,7 +799,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Duomo di Torino è uno dei luoghi più suggestivi di Torino. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Duomo di Torino è uno dei luoghi più suggestivi di Torino. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Duomo di Torino (Torino)",
+                "description": "Ha rubato la melodia delle campane di Duomo di Torino a Torino; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Duomo di Torino (Torino)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Torino nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Duomo di Torino a Torino",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Duomo di Torino.",
+              "Recupera corona di foglie prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Duomo di Torino a Torino."
+            ]
           }
         },
         {
@@ -402,7 +826,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Mole Antonelliana è uno dei luoghi più suggestivi di Torino. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+            "description": "Mole Antonelliana è uno dei luoghi più suggestivi di Torino. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso.",
+            "invaders": [
+              {
+                "name": "Il castellano invisibile di Mole Antonelliana (Torino)",
+                "description": "Ha preso possesso delle sale di Mole Antonelliana a Torino e sposta porte e corridoi per confondere chi entra."
+              },
+              {
+                "name": "La dama delle stanze chiuse di Mole Antonelliana (Torino)",
+                "description": "Cerca il sigillo più antico e vuole trasformare Mole Antonelliana nel proprio quartier generale."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Mole Antonelliana a Torino",
+            "strategySteps": [
+              "Rimetti in ordine gli indizi lasciati nelle sale di Mole Antonelliana.",
+              "Recupera ritratto velato prima che venga nascosto nell’archivio.",
+              "Usa il sigillo per fermare le porte che cambiano posizione.",
+              "Apri il portone e libera Mole Antonelliana a Torino."
+            ]
           }
         },
         {
@@ -412,7 +853,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Torino. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Torino. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata.",
+            "invaders": [
+              {
+                "name": "Il custode delle lapidi di Cimitero monumentale (Torino)",
+                "description": "Si risveglia tra le tombe di Cimitero monumentale a Torino e sposta i sentieri con luci ingannevoli."
+              },
+              {
+                "name": "La guida della nebbia di Cimitero monumentale (Torino)",
+                "description": "Sorveglia il cancello di Cimitero monumentale e protegge un segreto sepolto sotto Torino."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cimitero monumentale a Torino",
+            "strategySteps": [
+              "Segui le impronte luminose fino al settore più antico di Cimitero monumentale.",
+              "Ritrova frammento di partitura prima che scompaia nella nebbia.",
+              "Spegni i fuochi fatui con il talismano recuperato.",
+              "Riapri il cancello e restituisci la quiete a Cimitero monumentale."
+            ]
           }
         },
         {
@@ -422,7 +880,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Teatro Regio è uno dei luoghi più suggestivi di Torino. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+            "description": "Teatro Regio è uno dei luoghi più suggestivi di Torino. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico.",
+            "invaders": [
+              {
+                "name": "Il suggeritore fantasma di Teatro Regio (Torino)",
+                "description": "Si impossessa del palcoscenico di Teatro Regio a Torino e recita una scena che intrappola chi la guarda."
+              },
+              {
+                "name": "La prima attrice spettrale di Teatro Regio (Torino)",
+                "description": "Ruba le voci agli attori e le nasconde dietro il sipario, lasciando Teatro Regio senza applausi."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Teatro Regio a Torino",
+            "strategySteps": [
+              "Scopri la scena cancellata dal copione di Teatro Regio.",
+              "Trova bussola nera dietro le quinte prima che cali il sipario.",
+              "Pronuncia la battuta finale per spezzare l’incantesimo.",
+              "Accendi le luci di sala e libera il teatro di Torino."
+            ]
           }
         },
         {
@@ -432,7 +907,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Parco del Valentino è uno dei luoghi più suggestivi di Torino. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada."
+            "description": "Parco del Valentino è uno dei luoghi più suggestivi di Torino. Al calare della notte, il vento agita i rami e il sentiero cambia aspetto. Piccole luci si muovono tra gli alberi e attirano i visitatori fuori strada.",
+            "invaders": [
+              {
+                "name": "Il guardiano dei sentieri di Parco del Valentino (Torino)",
+                "description": "Confonde i sentieri di Parco del Valentino a Torino e sposta i segnali quando cala la nebbia."
+              },
+              {
+                "name": "La lucciola stregata di Parco del Valentino (Torino)",
+                "description": "Si nasconde tra gli alberi e attira i visitatori con luci che svaniscono appena ci si avvicina."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Parco del Valentino a Torino",
+            "strategySteps": [
+              "Segui i segni lungo Parco del Valentino senza abbandonare il percorso.",
+              "Trova timbro degli archivi tra le radici dell’albero più antico.",
+              "Disponi le pietre luminose per indicare l’uscita dal labirinto.",
+              "Rischiara il sentiero e libera Parco del Valentino a Torino."
+            ]
           }
         }
       ]
@@ -448,7 +940,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cattedrale di Santa Maria è uno dei luoghi più suggestivi di Asti. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico."
+            "description": "Cattedrale di Santa Maria è uno dei luoghi più suggestivi di Asti. Le campane tacciono, ma di notte una melodia misteriosa risuona tra le navate. Le ombre si allungano e custodiscono un segreto antico.",
+            "invaders": [
+              {
+                "name": "Il campanaro d’ombra di Cattedrale di Santa Maria (Asti)",
+                "description": "Ha rubato la melodia delle campane di Cattedrale di Santa Maria a Asti; le sue note fanno apparire ombre tra le navate."
+              },
+              {
+                "name": "La custode delle vetrate di Cattedrale di Santa Maria (Asti)",
+                "description": "Si nasconde tra le vetrate e spegne una luce a ogni rintocco, avvolgendo Asti nel silenzio."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cattedrale di Santa Maria a Asti",
+            "strategySteps": [
+              "Trova la nota mancante nascosta vicino all’ingresso di Cattedrale di Santa Maria.",
+              "Recupera stella di ottone prima del prossimo rintocco.",
+              "Ricomponi la melodia per spezzare l’incantesimo.",
+              "Riaccendi le luci e proteggi Cattedrale di Santa Maria a Asti."
+            ]
           }
         },
         {
@@ -458,7 +967,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Torre Troyana è uno dei luoghi più suggestivi di Asti. Di giorno sembra un luogo tranquillo, ma al calare della notte le ombre si animano e iniziano strane apparizioni."
+            "description": "Torre Troyana è uno dei luoghi più suggestivi di Asti. Di giorno sembra un luogo tranquillo, ma al calare della notte le ombre si animano e iniziano strane apparizioni.",
+            "invaders": [
+              {
+                "name": "Il viandante senza ombra di Torre Troyana (Asti)",
+                "description": "Si aggira tra gli angoli nascosti di Torre Troyana a Asti, lasciando indizi che cambiano a ogni visita."
+              },
+              {
+                "name": "La custode dei vicoli di Torre Troyana (Asti)",
+                "description": "Sorveglia il passaggio più antico e confonde chi prova a scoprire la storia del luogo."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Torre Troyana a Asti",
+            "strategySteps": [
+              "Raccogli gli indizi nascosti tra gli angoli di Torre Troyana.",
+              "Recupera diario del guardiano prima che sparisca nel buio.",
+              "Risolvi il messaggio lasciato dagli abitanti di Asti.",
+              "Segui la luce fino all’uscita e libera Torre Troyana."
+            ]
           }
         },
         {
@@ -468,7 +994,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Palazzo Mazzetti è uno dei luoghi più suggestivi di Asti. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso."
+            "description": "Palazzo Mazzetti è uno dei luoghi più suggestivi di Asti. Le sue mura sembrano custodire un segreto. Di notte, finestre e corridoi si animano e una presenza misteriosa sorveglia ogni ingresso.",
+            "invaders": [
+              {
+                "name": "Il castellano invisibile di Palazzo Mazzetti (Asti)",
+                "description": "Ha preso possesso delle sale di Palazzo Mazzetti a Asti e sposta porte e corridoi per confondere chi entra."
+              },
+              {
+                "name": "La dama delle stanze chiuse di Palazzo Mazzetti (Asti)",
+                "description": "Cerca il sigillo più antico e vuole trasformare Palazzo Mazzetti nel proprio quartier generale."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Palazzo Mazzetti a Asti",
+            "strategySteps": [
+              "Rimetti in ordine gli indizi lasciati nelle sale di Palazzo Mazzetti.",
+              "Recupera lanterna del viandante prima che venga nascosto nell’archivio.",
+              "Usa il sigillo per fermare le porte che cambiano posizione.",
+              "Apri il portone e libera Palazzo Mazzetti a Asti."
+            ]
           }
         },
         {
@@ -478,7 +1021,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Asti. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata."
+            "description": "Cimitero monumentale è uno dei luoghi più suggestivi di Asti. Fra le lapidi, la nebbia disegna sentieri che non compaiono sulle mappe. Dopo il tramonto, ogni passo sembra risvegliare una presenza dimenticata.",
+            "invaders": [
+              {
+                "name": "Il custode delle lapidi di Cimitero monumentale (Asti)",
+                "description": "Si risveglia tra le tombe di Cimitero monumentale a Asti e sposta i sentieri con luci ingannevoli."
+              },
+              {
+                "name": "La guida della nebbia di Cimitero monumentale (Asti)",
+                "description": "Sorveglia il cancello di Cimitero monumentale e protegge un segreto sepolto sotto Asti."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Cimitero monumentale a Asti",
+            "strategySteps": [
+              "Segui le impronte luminose fino al settore più antico di Cimitero monumentale.",
+              "Ritrova chiave del campanile prima che scompaia nella nebbia.",
+              "Spegni i fuochi fatui con il talismano recuperato.",
+              "Riapri il cancello e restituisci la quiete a Cimitero monumentale."
+            ]
           }
         },
         {
@@ -488,7 +1048,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Teatro Alfieri è uno dei luoghi più suggestivi di Asti. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico."
+            "description": "Teatro Alfieri è uno dei luoghi più suggestivi di Asti. Quando cala il sipario, lo spettacolo continua da solo: voci senza pubblico attraversano la sala e una luce spettrale illumina il palcoscenico.",
+            "invaders": [
+              {
+                "name": "Il suggeritore fantasma di Teatro Alfieri (Asti)",
+                "description": "Si impossessa del palcoscenico di Teatro Alfieri a Asti e recita una scena che intrappola chi la guarda."
+              },
+              {
+                "name": "La prima attrice spettrale di Teatro Alfieri (Asti)",
+                "description": "Ruba le voci agli attori e le nasconde dietro il sipario, lasciando Teatro Alfieri senza applausi."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Teatro Alfieri a Asti",
+            "strategySteps": [
+              "Scopri la scena cancellata dal copione di Teatro Alfieri.",
+              "Trova sigillo della piazza dietro le quinte prima che cali il sipario.",
+              "Pronuncia la battuta finale per spezzare l’incantesimo.",
+              "Accendi le luci di sala e libera il teatro di Asti."
+            ]
           }
         },
         {
@@ -498,7 +1075,24 @@
           "imagePath": null,
           "imageAlt": null,
           "detail": {
-            "description": "Biblioteca Astense è uno dei luoghi più suggestivi di Asti. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta."
+            "description": "Biblioteca Astense è uno dei luoghi più suggestivi di Asti. Tra gli scaffali riposano storie che nessuno ricorda di aver scritto. A notte fonda, le pagine si voltano da sole e indicano una porta segreta.",
+            "invaders": [
+              {
+                "name": "Il bibliotecario delle ombre di Biblioteca Astense (Asti)",
+                "description": "Rimescola gli scaffali di Biblioteca Astense a Asti e cancella dai libri il ricordo dei loro lettori."
+              },
+              {
+                "name": "La lettrice senza ricordi di Biblioteca Astense (Asti)",
+                "description": "Si nasconde in un volume senza titolo e cambia le parole ogni volta che viene aperto."
+              }
+            ],
+            "strategyTitle": "La missione per liberare Biblioteca Astense a Asti",
+            "strategySteps": [
+              "Trova il volume senza titolo tra gli scaffali di Biblioteca Astense.",
+              "Recupera piuma argentata dalla pagina che si riscrive da sola.",
+              "Rimetti il volume al suo posto per fermare il sortilegio.",
+              "Riapri le finestre e restituisci la quiete a Biblioteca Astense."
+            ]
           }
         }
       ]

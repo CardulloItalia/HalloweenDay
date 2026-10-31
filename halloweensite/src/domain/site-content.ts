@@ -74,7 +74,6 @@ export interface SiteContent {
   recipes: Recipe[];
   films: Film[];
   placeDetailDefaults: PlaceDetailDefaults;
-  photoPlaceholder: string;
   cities: City[];
   footer: string;
   legend: Array<{ label: string; status: InfestationStatus }>;
